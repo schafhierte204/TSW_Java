@@ -14,8 +14,9 @@ public class Test_1 {
 		System.out.println("****************************");
 
 		do {
+			gefunden = false;
 			for (int i = 0; i < 8; i++) {
-				zahlen[i] = (int) (Math.random() * 6 + 5); //Sechs mögliche Zahlen die bei 5 anfangen
+				zahlen[i] = (int) (Math.random() * 6 + 5); // Sechs mögliche Zahlen die bei 5 anfangen
 			}
 
 			System.out.println();
@@ -35,33 +36,27 @@ public class Test_1 {
 			case 'E':
 			case 'e':
 				if (zahlen[0] == rateZahl) {
-					System.out.println("Diese Runde haben Sie gewonnen!");
-				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
+					gefunden = true;
 				}
 				break;
 			case 'L':
 			case 'l':
 				if (zahlen[7] == rateZahl) {
-					System.out.println("Diese Runde haben Sie gewonnen!");
-				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
+					gefunden = true;
 				}
-				break;
 			case 'D':
 			case 'd':
-				gefunden = false;
 				for (int z : zahlen) {
 					if (z == rateZahl) {
 						gefunden = true;
 					}
 				}
-				if (gefunden) {
-					System.out.println("Diese Runde haben Sie gewonnen!");
-				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
-				}
 				break;
+			}
+			if (gefunden) {
+				System.out.println("Diese Runde haben Sie gewonnen!");
+			} else {
+				System.out.println("Diese Runde haben Sie verlohren!");
 			}
 
 			System.out.println();
