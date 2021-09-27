@@ -1,34 +1,29 @@
 import java.util.Scanner;
 
 public class Aufgabe11_3 {
-	static void kugel(double radius) {
+	static double kugel(double radius) {
 		double volumen;
-		volumen = 4 / 3 * Math.PI * Math.pow(radius, 3);
-		System.out.println("Kugel:");
-		System.out.println("Das Volumen beträgt: " + volumen);
-
+		volumen = (double) 4 / 3 * Math.PI * Math.pow(radius, 3);
+		return volumen;
 	}
 
-	static void halbkugel(double radius) {
+	static double halbkugel(double radius) {
 		double volumen;
-		volumen = 2 / 3 * Math.PI * Math.pow(radius, 3);
-		System.out.println("Halbkugel:");
-		System.out.println("Das Volumen beträgt: " + volumen);
-
+		volumen =(double) 2 / 3 * Math.PI * Math.pow(radius, 3);
+		return volumen;
 	}
 
-	static void zylinder(double radius, double lange) {
+	static double zylinder(double radius, double lange) {
 		double volumen;
 		volumen = Math.PI * Math.pow(radius, 2) * lange;
-		System.out.println("Zylinder:");
-		System.out.println("Das Volumen beträgt: " + volumen);
+		return volumen;
 	}
 
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
 		char wahl;
-		double radius, lange;
+		double radius, lange, ergebnis;
 
 		System.out.println("Für welchen Körper wollen Sie das Volumen berechnen");
 		System.out.println("  K/k wie Kugel");
@@ -43,14 +38,18 @@ public class Aufgabe11_3 {
 			System.out.print("Geben sie den Radius ein: ");
 			radius = in.nextDouble();
 			System.out.println();
-			kugel(radius);
+			ergebnis = kugel(radius);
+			System.out.println("Kugel:");
+			System.out.println("Das Volumen beträgt: " + ergebnis);
 			break;
 		case 'H':
 		case 'h':
 			System.out.print("Geben sie den Radius ein: ");
 			radius = in.nextDouble();
 			System.out.println();
-			halbkugel(radius);
+			ergebnis = halbkugel(radius);
+			System.out.println("Halbkugel:");
+			System.out.println("Das Volumen beträgt: " + ergebnis);
 			break;
 		case 'Z':
 		case 'z':
@@ -59,12 +58,11 @@ public class Aufgabe11_3 {
 			System.out.print("Geben sie die Höhe ein: ");
 			lange = in.nextDouble();
 			System.out.println();
-			zylinder(radius, lange);
+			ergebnis = zylinder(radius, lange);
+			System.out.println("Zylinder");
+			System.out.println("Das Volumen beträgt: " + ergebnis);
 			break;
-
 		}
-
 		in.close();
 	}
-
 }
