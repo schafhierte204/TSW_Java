@@ -22,12 +22,12 @@ public class Aufgabe8 {
 				auswahl = in.nextInt();
 				if (auswahl != 1 && auswahl != 2) {
 					System.out.println("Bitte geben sie 1 oder 2 ein");
-					fehler = false;
+					fehler = true;
 				}
 			} while (fehler);
 
 			// 3
-			System.out.print("Wie viele Zahlen benötigen sie");
+			System.out.print("Wie viele Zahlen benÃ¶tigen sie");
 			anzahl = in.nextInt();
 			zahlen = new int[anzahl];
 			System.out.print("In welchem bereich ? von:");
@@ -57,10 +57,10 @@ public class Aufgabe8 {
 			do {
 				weiter = true;
 
-				System.out.println("Folgende Aktionen sthen zur Verfügung:");
+				System.out.println("Folgende Aktionen sthen zur VerfÃ¼gung:");
 				System.out.println("(A/a) - Anzaige der Zahlen");
 				System.out.println("(K/k) - Ermittlung der kleinsten Zahl");
-				System.out.println("(G/g) - Ermittlung der größten Zahl");
+				System.out.println("(G/g) - Ermittlung der grÃ¶ÃŸten Zahl");
 				System.out.println("(M/m) - Berechnung des Mittelwertes");
 				System.out.println("(E/e) - Ende");
 				System.out.print("Ihre Wahl:");
@@ -94,7 +94,7 @@ public class Aufgabe8 {
 						}
 
 					}
-					System.out.println("Die Größte zahl ist: " + ausgabeg);
+					System.out.println("Die GrÃ¶ÃŸte zahl ist: " + ausgabeg);
 					break;
 				case 'M':
 				case 'm':
@@ -110,11 +110,10 @@ public class Aufgabe8 {
 					weiter = false;
 					do {
 						fehler = false;
-						System.out.print("Wollen Sie das Programm für eie neue Zahlenreihe starten(J/N)");
+						System.out.print("Wollen Sie das Programm fÃ¼r eie neue Zahlenreihe starten(J/N)");
 						mauswahl = in.next().charAt(0);
-						if (mauswahl == 'J') {
-
-						} else if (mauswahl == 'N') {
+						if (mauswahl == 'J');
+						else if (mauswahl == 'N') {
 							neu = false;
 						} else {
 							System.out.println("Bitte geben sie J oder N ein");

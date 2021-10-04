@@ -12,7 +12,7 @@ public class Aufgabe11 {
 
 		Scanner in = new Scanner(System.in);
 		int striche;
-		System.out.print("Wählen sie die Anzahl der Unterstreichungen für die Überschrift: ");
+		System.out.print("WÃ¤hlen sie die Anzahl der Unterstreichungen fÃ¼r die Ãœberschrift: ");
 		striche = in.nextInt();
 
 		titel(striche);

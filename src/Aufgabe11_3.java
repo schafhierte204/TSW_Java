@@ -25,7 +25,7 @@ public class Aufgabe11_3 {
 		char wahl;
 		double radius, lange, ergebnis;
 
-		System.out.println("Für welchen Körper wollen Sie das Volumen berechnen");
+		System.out.println("FÃ¼r welchen KÃ¶rper wollen Sie das Volumen berechnen");
 		System.out.println("  K/k wie Kugel");
 		System.out.println("  H/h wie Halbkugel");
 		System.out.println("  Z/z wie Zylinder");
@@ -40,7 +40,7 @@ public class Aufgabe11_3 {
 			System.out.println();
 			ergebnis = kugel(radius);
 			System.out.println("Kugel:");
-			System.out.println("Das Volumen beträgt: " + ergebnis);
+			System.out.println("Das Volumen betrÃ¤gt: " + ergebnis);
 			break;
 		case 'H':
 		case 'h':
@@ -49,18 +49,18 @@ public class Aufgabe11_3 {
 			System.out.println();
 			ergebnis = halbkugel(radius);
 			System.out.println("Halbkugel:");
-			System.out.println("Das Volumen beträgt: " + ergebnis);
+			System.out.println("Das Volumen betrÃ¤gt: " + ergebnis);
 			break;
 		case 'Z':
 		case 'z':
 			System.out.print("Geben sie den Radius ein: ");
 			radius = in.nextDouble();
-			System.out.print("Geben sie die Höhe ein: ");
+			System.out.print("Geben sie die HÃ¶he ein: ");
 			lange = in.nextDouble();
 			System.out.println();
 			ergebnis = zylinder(radius, lange);
 			System.out.println("Zylinder");
-			System.out.println("Das Volumen beträgt: " + ergebnis);
+			System.out.println("Das Volumen betrÃ¤gt: " + ergebnis);
 			break;
 		}
 		in.close();

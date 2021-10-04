@@ -15,7 +15,7 @@ public class JensHafemann_1 {
 //-------------------------------- A1: 2/2 ----------------
 		do {
 			for (int i = 0; i < 8; i++) {
-				zahlen[i] = (int) (Math.random() * 6 + 5); //Sechs mögliche Zahlen die bei 5 anfangen
+				zahlen[i] = (int) (Math.random() * 6 + 5); //Sechs mÃ¶gliche Zahlen die bei 5 anfangen
 			}
 //------------------------------ A2: 9/9 ---------------------
 			
@@ -56,6 +56,7 @@ public class JensHafemann_1 {
 				for (int z : zahlen) {
 					if (z == rateZahl) {
 						gefunden = true;
+						break;
 					}
 				}
 				if (gefunden) {
@@ -89,6 +90,6 @@ public class JensHafemann_1 {
 //-------------------------------s/l:      3/3
 
 // vielleicht noch Leerzeilen vor/ nach Kontrollstrukturen??
-// Wie könnte man die Dopplungen im Quelltext ( . . verloren . . gewonnen . .  ) elegant vermeiden?
+// Wie kÃ¶nnte man die Dopplungen im Quelltext ( . . verloren . . gewonnen . .  ) elegant vermeiden?
 
 //---- 45/45  --  100%  -->  Note: 1+

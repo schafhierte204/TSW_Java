@@ -16,7 +16,7 @@ public class Test_1 {
 		do {
 			gefunden = false;
 			for (int i = 0; i < 8; i++) {
-				zahlen[i] = (int) (Math.random() * 6 + 5); // Sechs mögliche Zahlen die bei 5 anfangen
+				zahlen[i] = (int) (Math.random() * 6 + 5); // Sechs mÃ¶gliche Zahlen die bei 5 anfangen
 			}
 
 			System.out.println();
@@ -49,6 +49,7 @@ public class Test_1 {
 				for (int z : zahlen) {
 					if (z == rateZahl) {
 						gefunden = true;
+						break;
 					}
 				}
 				break;

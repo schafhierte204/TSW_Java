@@ -91,7 +91,7 @@ public class Methoden5 {
 
             do {
                 System.out.println(
-                        "Wollen sie Lagemaﬂe(L/l), Arithmetische Analysen(A/a), oder Streuungsmaﬂe(S/s) berechnen?");
+                        "Wollen sie Lagema√üe(L/l), Arithmetische Analysen(A/a), oder Streuungsma√üe(S/s) berechnen?");
                 wahl = in.next().charAt(0);
                 System.out.println();
                 if (wahl == 'A' || wahl == 'a') {
@@ -101,9 +101,9 @@ public class Methoden5 {
                         wahl = in.next().charAt(0);
                         System.out.println();
                         if (wahl == 'A' || wahl == 'a') {
-                            System.out.println("Das Maximum betr‰gt: " + max(zahlen));
+                            System.out.println("Das Maximum betr√§gt: " + max(zahlen));
                         } else if (wahl == 'I' || wahl == 'i') {
-                            System.out.println("Das Minimum betr‰gt: " + min(zahlen));
+                            System.out.println("Das Minimum betr√§gt: " + min(zahlen));
                         } else {
                             System.out.println("Bitte geben sie A/a oder I/i ein");
                             fehler = true;
@@ -120,24 +120,24 @@ public class Methoden5 {
                         switch (wahl) {
                             case 'D':
                             case 'd':
-                                System.out.println("Der Durchschnitt betr‰gt: " + average(zahlen));
+                                System.out.println("Der Durchschnitt betr√§gt: " + average(zahlen));
                                 break;
                             case 'O':
                             case 'o':
-                                System.out.println("Der Modalwert betr‰gt: " + modal(zahlen));
+                                System.out.println("Der Modalwert betr√§gt: " + modal(zahlen));
                                 break;
                             case 'M':
                             case 'm':
-                                System.out.println("Der Medial betr‰gt: " + median(zahlen));
+                                System.out.println("Der Medial betr√§gt: " + median(zahlen));
                                 break;
                             case 'A':
                             case 'a':
-                                System.out.println("Der Durchschnitt betr‰gt: " + average(zahlen));
-                                System.out.println("Der Modalwert betr‰gt: " + modal(zahlen));
-                                System.out.println("Der Medial betr‰gt: " + median(zahlen));
+                                System.out.println("Der Durchschnitt betr√§gt: " + average(zahlen));
+                                System.out.println("Der Modalwert betr√§gt: " + modal(zahlen));
+                                System.out.println("Der Medial betr√§gt: " + median(zahlen));
                                 break;
                             default:
-                                System.out.println("Bitte geben sie eine g¸ltige auswahl ein");
+                                System.out.println("Bitte geben sie eine g√ºltige auswahl ein");
                                 fehler = true;
                         }
                     } while (fehler);
@@ -151,14 +151,14 @@ public class Methoden5 {
                         switch (wahl) {
                             case 'S':
                             case 's':
-                                System.out.println("Die Standardabweichung betr‰gt: " + standardAbweichung(zahlen));
+                                System.out.println("Die Standardabweichung betr√§gt: " + standardAbweichung(zahlen));
                                 break;
                             case 'R':
                             case 'r':
-                                System.out.println("Der Spannweite betr‰gt: " + spannweite(zahlen));
+                                System.out.println("Der Spannweite betr√§gt: " + spannweite(zahlen));
                                 break;
                             default:
-                                System.out.println("Bitte geben sie eine g¸ltige auswahl ein");
+                                System.out.println("Bitte geben sie eine g√ºltige auswahl ein");
                                 fehler = true;
                         }
                     } while (fehler);
