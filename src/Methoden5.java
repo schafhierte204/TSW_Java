@@ -88,6 +88,7 @@ public class Methoden5 {
             for (int i = 0; i < anzahl; i++) {
                 zahlen[i] = (int) (Math.random() * 10);
             }
+            System.out.println(Arrays.toString(zahlen));
 
             do {
                 System.out.println(
