@@ -57,8 +57,8 @@ public class Aufgabe8 {
 			do {
 				weiter = true;
 
-				System.out.println("Folgende Aktionen sthen zur Verfügung:");
-				System.out.println("(A/a) - Anzaige der Zahlen");
+				System.out.println("Folgende Aktionen stehen zur Verfügung:");
+				System.out.println("(A/a) - Anzeige der Zahlen");
 				System.out.println("(K/k) - Ermittlung der kleinsten Zahl");
 				System.out.println("(G/g) - Ermittlung der größten Zahl");
 				System.out.println("(M/m) - Berechnung des Mittelwertes");
@@ -87,23 +87,23 @@ public class Aufgabe8 {
 					break;
 				case 'G':
 				case 'g':
-					int ausgabeg = 0;
+					int ausgabeG = 0;
 					for (int z : zahlen) {
-						if (z > ausgabeg) {
-							ausgabeg = z;
+						if (z > ausgabeG) {
+							ausgabeG = z;
 						}
 
 					}
-					System.out.println("Die Größte zahl ist: " + ausgabeg);
+					System.out.println("Die Größte zahl ist: " + ausgabeG);
 					break;
 				case 'M':
 				case 'm':
-					int ausgabem = 0;
+					int ausgabeM = 0;
 					for (int z : zahlen) {
-						ausgabem = ausgabem + z;
+						ausgabeM = ausgabeM + z;
 					}
-					ausgabem = ausgabem / anzahl;
-					System.out.println("Der Mittelwer ist: " + ausgabem);
+					ausgabeM = ausgabeM / anzahl;
+					System.out.println("Der Mittelwert ist: " + ausgabeM);
 					break;
 				case 'E':
 				case 'e':
@@ -112,10 +112,9 @@ public class Aufgabe8 {
 						fehler = false;
 						System.out.print("Wollen Sie das Programm für eie neue Zahlenreihe starten(J/N)");
 						mauswahl = in.next().charAt(0);
-						if (mauswahl == 'J');
-						else if (mauswahl == 'N') {
+						if (mauswahl == 'N') {
 							neu = false;
-						} else {
+						}else if (mauswahl !='J') {
 							System.out.println("Bitte geben sie J oder N ein");
 							fehler = true;
 						}

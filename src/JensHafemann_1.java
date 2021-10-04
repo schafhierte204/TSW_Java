@@ -39,7 +39,7 @@ public class JensHafemann_1 {
 				if (zahlen[0] == rateZahl) {
 					System.out.println("Diese Runde haben Sie gewonnen!");
 				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
+					System.out.println("Diese Runde haben Sie verloren!");
 				}
 				break;
 			case 'L':
@@ -47,7 +47,7 @@ public class JensHafemann_1 {
 				if (zahlen[7] == rateZahl) {
 					System.out.println("Diese Runde haben Sie gewonnen!");
 				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
+					System.out.println("Diese Runde haben Sie verloren!");
 				}
 				break;
 			case 'D':
@@ -62,7 +62,7 @@ public class JensHafemann_1 {
 				if (gefunden) {
 					System.out.println("Diese Runde haben Sie gewonnen!");
 				} else {
-					System.out.println("Diese Runde haben Sie verlohren!");
+					System.out.println("Diese Runde haben Sie verloren!");
 				}
 				break;
 			}
@@ -89,7 +89,7 @@ public class JensHafemann_1 {
 //---------------------------- Programm:  42/42
 //-------------------------------s/l:      3/3
 
-// vielleicht noch Leerzeilen vor/ nach Kontrollstrukturen??
-// Wie könnte man die Dopplungen im Quelltext ( . . verloren . . gewonnen . .  ) elegant vermeiden?
+// vielleicht noch Leerzeilen vor/ nach Kontrollstrukturen?
+// Wie könnte man die Dopplungen im Quelltext (… verloren… gewonnen…) elegant vermeiden?
 
 //---- 45/45  --  100%  -->  Note: 1+

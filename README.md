@@ -2,4 +2,4 @@
 
 ------------------------------------------------------------
 
-Eine Ansamlung meiner Schulprojekte
+Eine Ansammlung meiner Schulprojekte

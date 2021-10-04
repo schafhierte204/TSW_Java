@@ -57,7 +57,7 @@ public class Test_1 {
 			if (gefunden) {
 				System.out.println("Diese Runde haben Sie gewonnen!");
 			} else {
-				System.out.println("Diese Runde haben Sie verlohren!");
+				System.out.println("Diese Runde haben Sie verloren!");
 			}
 
 			System.out.println();
