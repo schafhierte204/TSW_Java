@@ -1,4 +1,4 @@
-package de.schafhirte204.methoden;
+package de.schafhierte204.methoden;
 
 import java.util.Scanner;
 

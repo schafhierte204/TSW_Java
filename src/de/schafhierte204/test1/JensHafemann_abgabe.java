@@ -1,4 +1,4 @@
-package de.schafhirte204.test1;
+package de.schafhierte204.test1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package de.schafhirte204.Arrays;
+package de.schafhierte204.Arrays;
 
 import java.util.Objects;
 import java.util.Scanner;

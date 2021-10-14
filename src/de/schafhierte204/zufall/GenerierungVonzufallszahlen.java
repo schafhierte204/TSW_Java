@@ -1,4 +1,4 @@
-package de.schafhirte204.zufall;
+package de.schafhierte204.zufall;
 
 /**
  * Generierung von Zufallszahlen
