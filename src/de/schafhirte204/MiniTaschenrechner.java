@@ -1,6 +1,11 @@
+package de.schafhirte204;
+
 import java.util.Scanner;
 
-public class Aufgabe2 {
+/**
+ * Einfach Aufgabe mit ein und Ausgaben
+ */
+public class MiniTaschenrechner {
     public  static void main(String[] args){
 
         int a,b;

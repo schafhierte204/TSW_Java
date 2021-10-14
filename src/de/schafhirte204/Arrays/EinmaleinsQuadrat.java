@@ -1,6 +1,11 @@
+package de.schafhirte204.Arrays;
+
 import java.util.Scanner;
 
-public class Aufgabe4 {
+/**
+ * Komplexere Aufgabe mit schleifen
+ */
+public class EinmaleinsQuadrat {
     public static void main(String[] args)
     {
         int a,b;
@@ -10,11 +15,14 @@ public class Aufgabe4 {
         System.out.println("* Das kleine Einmaleins *");
         System.out.println("*************************");
         System.out.println();
+        
+        //Eingabe
         System.out.print("Wie viele Spalten?: ");
         a = in.nextInt();
         System.out.print("Wie viele Zeilen?: ");
         b = in.nextInt();
         System.out.print("     ");
+        
         for(int i = 1;i<=a;i++)
         {
             System.out.print(i+" | ");

@@ -1,7 +1,12 @@
+package de.schafhirte204.methoden;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Methoden5 {
+/**
+ * Aufgabe zu Arrays in Methoden
+ */
+public class Statistik {
     static double max(int[] zahlen) {
         double maxZahl = zahlen[0];
         for (double z : zahlen) {

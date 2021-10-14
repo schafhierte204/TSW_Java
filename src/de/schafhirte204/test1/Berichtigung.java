@@ -1,7 +1,9 @@
+package de.schafhirte204.test1;
+
 import java.util.Scanner;
 
 //Jens Hafemann I-15
-public class Test_1 {
+public class Berichtigung {
 
 	public static void main(String[] args) {
 		int[] zahlen = new int[8];

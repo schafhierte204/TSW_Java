@@ -1,4 +1,9 @@
-public class Aufgabe6 {
+package de.schafhirte204.Arrays;
+
+/**
+ * Weiter Aufgabe zu Arrays
+ */
+public class TageInMonaten {
     public static void main(String[] args)
     {
        int[] tage = {31,28,31,30,31,30,31,31,30,31,30,31};

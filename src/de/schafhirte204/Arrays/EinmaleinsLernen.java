@@ -1,7 +1,12 @@
+package de.schafhirte204.Arrays;
+
 import java.util.Objects;
 import java.util.Scanner;
 
-public class Aufgabe5 {
+/**
+ * Komplexe Aufgabe mit Arrays
+ */
+public class EinmaleinsLernen {
     public static void main(String[] args) {
         int reihe, lang, pos;
         int fehler;

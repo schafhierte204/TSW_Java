@@ -1,9 +1,14 @@
+package de.schafhirte204.methoden;
+
 import java.util.Scanner;
 
-public class Aufgabe11 {
-	static void titel(int unterstriche) {
+/**
+ * Erste Aufgabe zu Methoden
+ */
+public class EinfuehrungMethoden {
+	static void titel(int zeilen) {
 		System.out.println("Herzlich Willkommen");
-		for (int i = 0; i < unterstriche; i++) {
+		for (int i = 0; i < zeilen; i++) {
 			System.out.println("-------------------");
 		}
 	}

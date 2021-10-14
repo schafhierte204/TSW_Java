@@ -1,6 +1,11 @@
+package de.schafhirte204.methoden;
+
 import java.util.Scanner;
 
-public class Aufgabe11_3 {
+/**
+ * Aufgabe zu Methoden mit Rückgabewert
+ */
+public class BerechnungVonVolumen {
 	static double kugel(double radius) {
 		double volumen;
 		volumen = (double) 4 / 3 * Math.PI * Math.pow(radius, 3);

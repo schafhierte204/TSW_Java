@@ -1,6 +1,11 @@
+package de.schafhirte204.zufall;
+
 import java.util.Scanner;
 
-public class Aufgabe7_04 {
+/**
+ * Erweiterte Aufgabe zu Zufallszahlen
+ */
+public class ZufallImQuadrat {
     public static void main(String[] args)
     {
         int gros,start,ende;

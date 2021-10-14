@@ -1,6 +1,11 @@
+package de.schafhirte204.Arrays;
+
 import java.util.Scanner;
 
-public class Aufgabe8 {
+/**
+ * Komplexe Aufgabe zu Arrays
+ */
+public class Zahlenreihen {
 
 	public static void main(String[] args) {
 
