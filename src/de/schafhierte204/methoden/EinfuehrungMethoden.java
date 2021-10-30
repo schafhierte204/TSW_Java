@@ -16,13 +16,13 @@ public class EinfuehrungMethoden {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
-		int striche;
+		int unterschteichungen;
 		System.out.print("Wählen sie die Anzahl der Unterstreichungen für die Überschrift: ");
-		striche = in.nextInt();
+		unterschteichungen = in.nextInt();
 
-		titel(striche);
+		titel(unterschteichungen);
+		
 		in.close();
-
 	}
 
 }
