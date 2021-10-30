@@ -7,21 +7,15 @@ import java.util.Scanner;
  */
 public class BerechnungVonVolumen {
 	static double kugel(double radius) {
-		double volumen;
-		volumen = (double) 4 / 3 * Math.PI * Math.pow(radius, 3);
-		return volumen;
+		return (double) 4 / 3 * Math.PI * Math.pow(radius, 3);
 	}
 
 	static double halbkugel(double radius) {
-		double volumen;
-		volumen =(double) 2 / 3 * Math.PI * Math.pow(radius, 3);
-		return volumen;
+		return (double) 2 / 3 * Math.PI * Math.pow(radius, 3);
 	}
 
 	static double zylinder(double radius, double lange) {
-		double volumen;
-		volumen = Math.PI * Math.pow(radius, 2) * lange;
-		return volumen;
+		return Math.PI * radius * radius * lange;
 	}
 
 	public static void main(String[] args) {
