@@ -7,8 +7,19 @@ public class Schulklasse {
 	int wochenstunden;
 	String klassenlehrer;
 
+	Schulklasse(String name,int schueler,int wochenstunden,String klassenlehrer) {
+		this.name = name;
+		this.schueler = schueler;
+		this.wochenstunden = wochenstunden;
+		this.klassenlehrer = klassenlehrer;
+	}
+	Schulklasse(){
+		
+	}
+
 	String getInfo() {
-		return "Die " + name + "besteht aus " + schueler + " SChülern,\nmuss wöchentlich " + wochenstunden
-				+ "h leisten \nund der Klassenlehrer ist " + klassenlehrer;
+		return "Die " + name + "besteht aus " + schueler + " SChülern,\n" + 
+				"muss wöchentlich " + wochenstunden + "h leisten \n"+
+				"und der Klassenlehrer ist " + klassenlehrer;
 	}
 }

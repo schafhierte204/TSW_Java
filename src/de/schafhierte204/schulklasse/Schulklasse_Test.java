@@ -4,11 +4,7 @@ public class Schulklasse_Test {
 
 	public static void main(String[] args) {
 
-		Schulklasse klasse = new Schulklasse();
-		klasse.name = "HIE2A";
-		klasse.klassenlehrer = "Patrik Kamps";
-		klasse.schueler = 16;
-		klasse.wochenstunden = 36;
+		Schulklasse klasse = new Schulklasse("HIE2A",16,36,"Patrik Kamps");
 
 		System.out.println("Unsere Klasse");
 		System.out.println("-------------");
