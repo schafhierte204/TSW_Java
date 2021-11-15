@@ -7,10 +7,42 @@ package de.schafhierte204.schulklasse;
  */
 public class Schulklasse {
 
-	String name;
-	int schueler;
-	int wochenstunden;
-	String klassenlehrer;
+	private String name;
+	private int schueler;
+	private int wochenstunden;
+	private String klassenlehrer;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getSchueler() {
+		return schueler;
+	}
+
+	public void setSchueler(int schueler) {
+		this.schueler = schueler;
+	}
+
+	public int getWochenstunden() {
+		return wochenstunden;
+	}
+
+	public void setWochenstunden(int wochenstunden) {
+		this.wochenstunden = wochenstunden;
+	}
+
+	public String getKlassenlehrer() {
+		return klassenlehrer;
+	}
+
+	public void setKlassenlehrer(String klassenlehrer) {
+		this.klassenlehrer = klassenlehrer;
+	}
 
 	/**
 	 * 
@@ -25,6 +57,8 @@ public class Schulklasse {
 		this.schueler = schueler;
 		this.wochenstunden = wochenstunden;
 		this.klassenlehrer = klassenlehrer;
+	}
+	public Schulklasse() {
 	}
 
 	String getInfo() {
