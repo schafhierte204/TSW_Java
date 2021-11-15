@@ -13,9 +13,6 @@ public class Schulklasse {
 		this.wochenstunden = wochenstunden;
 		this.klassenlehrer = klassenlehrer;
 	}
-	Schulklasse(){
-		
-	}
 
 	String getInfo() {
 		return "Die " + name + "besteht aus " + schueler + " SChülern,\n" + 
