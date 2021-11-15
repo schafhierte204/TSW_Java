@@ -1,5 +1,10 @@
 package de.schafhierte204.schulklasse;
 
+/**
+ * Informationen ueber eine Schulklasse
+ * @author Jens Hafemann
+ *
+ */
 public class Schulklasse {
 
 	String name;
@@ -7,7 +12,15 @@ public class Schulklasse {
 	int wochenstunden;
 	String klassenlehrer;
 
-	Schulklasse(String name,int schueler,int wochenstunden,String klassenlehrer) {
+	/**
+	 * 
+	 * 
+	 * @param name          KlassenName
+	 * @param schueler      Schueleranzahl
+	 * @param wochenstunden Anzahl Wochenstunden
+	 * @param klassenlehrer Name Klassenlehret
+	 */
+	Schulklasse(String name, int schueler, int wochenstunden, String klassenlehrer) {
 		this.name = name;
 		this.schueler = schueler;
 		this.wochenstunden = wochenstunden;
@@ -15,8 +28,7 @@ public class Schulklasse {
 	}
 
 	String getInfo() {
-		return "Die " + name + "besteht aus " + schueler + " SChülern,\n" + 
-				"muss wöchentlich " + wochenstunden + "h leisten \n"+
-				"und der Klassenlehrer ist " + klassenlehrer;
+		return "Die " + name + "besteht aus " + schueler + " SChülern,\n" + "muss wöchentlich " + wochenstunden
+				+ "h leisten \n" + "und der Klassenlehrer ist " + klassenlehrer;
 	}
 }
