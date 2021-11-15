@@ -1,6 +1,6 @@
 package de.schafhierte204.schulklasse;
 
-public class Schulklasse_Test {
+public class SchulklasseTest {
 
 	public static void main(String[] args) {
 
