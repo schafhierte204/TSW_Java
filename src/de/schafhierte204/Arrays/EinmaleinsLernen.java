@@ -1,6 +1,5 @@
 package de.schafhierte204.Arrays;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 /**
@@ -53,7 +52,7 @@ public class EinmaleinsLernen {
 
                 in.nextLine();
                 abfrage = in.nextLine();
-                if (Objects.equals(abfrage, "ja")) {
+                if (abfrage.equals("ja")) {
                     System.out.print(" Welche position? ");
                     pos = in.nextInt();
                     System.out.print("Bitte geben sie eine neue zahl für die position ein");
