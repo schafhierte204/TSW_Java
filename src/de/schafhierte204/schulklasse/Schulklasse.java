@@ -62,7 +62,7 @@ public class Schulklasse {
 	}
 
 	String getInfo() {
-		return "Die " + name + "besteht aus " + schueler + " SChülern,\n" + "muss wöchentlich " + wochenstunden
+		return "Die " + name + " besteht aus " + schueler + " Schülern,\n" + "muss wöchentlich " + wochenstunden
 				+ "h leisten \n" + "und der Klassenlehrer ist " + klassenlehrer;
 	}
 }
