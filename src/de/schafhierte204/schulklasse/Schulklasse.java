@@ -58,7 +58,7 @@ public class Schulklasse {
 		this.wochenstunden = wochenstunden;
 		this.klassenlehrer = klassenlehrer;
 	}
-	public Schulklasse() {
+	Schulklasse() {
 	}
 
 	String getInfo() {
