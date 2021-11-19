@@ -2,10 +2,13 @@ package de.schafhierte204.schulklasse;
 
 /**
  * Informationen ueber eine Schulklasse
+ * 
  * @author Jens Hafemann
  *
  */
 public class Schulklasse {
+	public static final int MAX_WOCHENSTUNDEN = 40;
+	public static final int MAX_SCHUELER = 34;
 
 	private String name;
 	private int schueler;
@@ -25,7 +28,9 @@ public class Schulklasse {
 	}
 
 	public void setSchueler(int schueler) {
-		this.schueler = schueler;
+		if (schueler <= MAX_SCHUELER) {
+			this.schueler = schueler;
+		}
 	}
 
 	public int getWochenstunden() {
@@ -33,11 +38,14 @@ public class Schulklasse {
 	}
 
 	public void setWochenstunden(int wochenstunden) {
-		this.wochenstunden = wochenstunden;
+		if (wochenstunden <= MAX_WOCHENSTUNDEN) {
+			this.wochenstunden = wochenstunden;
+		}
 	}
 
-	public String getKlassenlehrer() {
-		return klassenlehrer;
+	public String getLehrerKuerzel() {
+		int indexSpace = klassenlehrer.indexOf(' ');
+		return (klassenlehrer.substring(indexSpace+1, indexSpace+3)+klassenlehrer.charAt(0)).toUpperCase();
 	}
 
 	public void setKlassenlehrer(String klassenlehrer) {
@@ -58,6 +66,7 @@ public class Schulklasse {
 		this.wochenstunden = wochenstunden;
 		this.klassenlehrer = klassenlehrer;
 	}
+
 	Schulklasse() {
 	}
 
