@@ -60,14 +60,18 @@ public class Schulklasse {
 	 * @param wochenstunden Anzahl Wochenstunden
 	 * @param klassenlehrer Name Klassenlehret
 	 */
-	Schulklasse(String name, int schueler, int wochenstunden, String klassenlehrer) {
+	public Schulklasse(String name, int schueler, int wochenstunden, String klassenlehrer) {
 		this.name = name;
 		this.schueler = schueler;
 		this.wochenstunden = wochenstunden;
 		this.klassenlehrer = klassenlehrer;
 	}
 
-	Schulklasse() {
+	public Schulklasse() {
+		name = "";
+		klassenlehrer = "???";
+		schueler = 0;
+		wochenstunden = 0;
 	}
 
 	String getInfo() {
