@@ -67,6 +67,11 @@ public class Schulklasse {
 		this.klassenlehrer = klassenlehrer;
 	}
 
+	public Schulklasse(String name, String klassenlehrer) {
+		this.name=name;
+		this.klassenlehrer=klassenlehrer;
+	}
+
 	public Schulklasse() {
 		name = "";
 		klassenlehrer = "???";

@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class SchulklasseTestGetSet {
 
 	public static void main(String[] args) {
-		Schulklasse klasse = new Schulklasse();
+		Schulklasse klasse = new Schulklasse("*****",22,30,"N.N.");
+		Schulklasse klasse2 = new Schulklasse();
+		Schulklasse klasse3 = new Schulklasse("***","N.N.");
 		Scanner in = new Scanner(System.in);
 		char weiter;
 		System.out.println("*********************");
